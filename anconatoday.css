@@ -1,0 +1,23 @@
+.left{
+    gap:30px;
+    width: 50%;
+}
+.right{
+    width:50%;
+}
+#citynews{
+    width: 50%;
+}
+.row{
+    height:10vh;
+    border-bottom:1px solid #d3d3d3;
+}
+.martedi{
+    margin-top:17px;
+}
+.button-header{
+    gap:20px;
+}
+.face-men{
+    width:20%;
+}
