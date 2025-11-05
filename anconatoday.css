@@ -21,3 +21,263 @@
 .face-men{
     width:20%;
 }
+/* Header */
+header{
+    background:beige;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.header-bar{
+    height: 20vh;
+}
+.logo-ancona{
+    /* background: red; */
+    width: 80%;
+}
+.button-header{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+.button-header1{
+    font-size:23px;
+}
+.face-men{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:1px solid black;
+}
+.article-header{
+    gap:5px;
+    /* margin-left: 50px; */
+    /* background: red; */
+}
+.box-1, .box-2{
+    width:40%;
+    height:70%;
+    padding:15px;
+    border:1px solid black;
+    background: white;
+}
+.titolo{
+    font-size:20px;
+}
+
+/* Prima sezione */
+.first-section{
+    padding-top:24px;
+}
+
+.article-in-line{
+    display: flex;
+    justify-content: center;
+}
+.article-in-line-2{
+    display: flex;
+    justify-content: flex-end;
+    /* background: yellow; */
+    width: 65.5%;
+   
+    
+}
+.articolo-1{
+    padding:10px;
+    width: 35%;
+    height: 700px;
+    border:1px solid #d3d3d3;
+    border-right:none;
+    border-top:none;
+    border-left:none;
+    /* background: yellow; */
+    margin-bottom:10px;
+}
+.notizie{
+    font-size: large;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    margin-top:10px;
+}
+.style-paragraph{
+    font-size: large;
+    color:rgb(105, 105, 105);
+    
+}
+.articolo-2{
+    padding:10px;
+    width:15%;
+    height:700px;
+    border: 1px solid #d3d3d3;
+    border-top: none;
+    margin-bottom:10px;
+    /* background: green; */
+}
+.articolo-3{
+    padding:10px;
+    width: 53.5%;
+    height: 300px;
+    border-bottom:none;
+    /* background: red; */
+    border-left:none;
+    display: flex;
+}
+.style-text-thirdarticle{
+    font-size: large;
+    color:rgb(105, 105, 105);
+    width:50%;
+}
+.terzo-titolo{
+    display: flex;
+}
+.articolo-4{
+    margin-top:10px;
+    padding:10px;
+    width:286px;
+    height:300px;
+    border: 1px solid #d3d3d3;
+    border-bottom:none;
+    border-top:none;
+    /* background: violet; */
+}
+.articolo-5{
+    border-top:1px solid #d3d3d3;
+    margin-top:50px;
+    padding:15px;
+    /* background: blue; */
+    
+}
+.img-nicolisa{
+    width:100%;
+}
+.img-terremoto{
+    width:100%;
+}
+.img-frontale{
+    width: 50%;
+    padding:10px;
+}
+/* Aside bar */
+.aside-bar{
+    width: 18%;
+    /* background: red; */
+    padding:30px;
+}
+.numana{
+    width: 40%;
+    padding:10px;
+}
+.aside-list{
+    display: flex;
+    /* background: blue; */
+    width:100%;
+    border-bottom:1px solid #d3d3d3;
+    
+}
+
+/* Seconda sezione */
+.second-section{
+    height: 82vh;
+    background: black;
+    color: white;
+    padding:24px;
+}
+.title-second-section{
+    /* background:red; */
+    font-size: 30px;
+    width: 78%;
+    border-bottom:1px solid #d3d3d3;
+    margin-left:175px; 
+    margin-top:0px;
+}
+/* Box parte sinistra */
+.video-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-first-video{
+    width:80%;
+    font-size:18px;
+}
+.first-video{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:50%;
+    /* background: yellow; */
+}
+.img-interview{
+    width: 80%;
+    padding:10px;
+}
+/* Box parte destra */
+.right-side{
+    width:50%;
+}
+.img-vigili-fuoco, .star-ancona{
+    width:100%;
+    height:150px;
+}
+.title-video{
+    display: flex;
+    flex-direction: column;
+}
+.second-video, .third-video{
+    /* border:1px solid white; */
+    display: flex;
+    align-items: center;
+    width:70%;
+    height: 241px;
+    padding:47px;
+    border-left:1px solid white;
+    /* background: green; */
+}
+.second-video{
+    border-bottom:1px solid white;
+}
+.text-video{
+    width:80%;
+}
+
+/* Terza sezione */
+.third-section{
+    height:160vh;
+    display: flex;
+    flex-direction: column;
+}
+.title-third-section{
+    font-size:30px;
+    border-bottom:2px solid black;
+}
+.first-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-line{
+    display: flex;
+    justify-content: center;
+}
+.third-line{
+    display: flex;
+    justify-content: center;
+    
+}
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    padding:10px;
+}
+.imgscale{
+    margin-top: 48px;
+}
+footer{
+    height:70vh;
+    background: black;
+}
+
