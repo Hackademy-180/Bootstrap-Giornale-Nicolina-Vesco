@@ -62,7 +62,7 @@
 
 .row{
     height:10vh;
-    border-bottom:1px solid #d3d3d3;
+    /* border-bottom:1px solid #d3d3d3; */
 }
 .martedi{
     margin-top:17px;
@@ -125,15 +125,14 @@ a{
     /* display: flex;
     justify-content: center; */
     height:90vh;
+    margin-left:-40px;
 }
 .article-in-line-2{
-    height:70vh;
-    /* display: flex;
-    justify-content: flex-end; */
-    /* background: yellow; */
-    /* width: 65.5%; */
-   
-    
+    height:50vh;
+    margin:0px;
+    width:87%;
+    margin-left:-38px;
+
 }
 .articolo-1{
     padding:10px;
@@ -168,13 +167,15 @@ a{
     /* background: green; */
 }
 .articolo-3{
+    margin-top:10px;
     padding:10px;
-    width: 53.5%;
-    height: 300px;
+    width: 47%;
+    height: 400px;
+    border:1px solid #d3d3d3;
+    border-top:none;
     border-bottom:none;
-    /* background: red; */
-    border-left:none;
-    display: flex;
+    border-right:none;
+   
 }
 .style-text-thirdarticle{
     font-size: large;
@@ -187,18 +188,15 @@ a{
 .articolo-4{
     margin-top:10px;
     padding:10px;
-    width:286px;
-    height:300px;
-    border: 1px solid #d3d3d3;
-    border-bottom:none;
+    width:29%;
+    height:400px;
+    border:1px, solid, #d3d3d3;
     border-top:none;
-    /* background: violet; */
+    border-bottom:none;
 }
 .articolo-5{
-    border-top:1px solid #d3d3d3;
     margin-top:50px;
     padding:15px;
-    /* background: blue; */
     
 }
 .img-nicolisa{
@@ -209,13 +207,12 @@ a{
     
 }
 .img-frontale{
-    width: 50%;
+    width: 40%;
     padding:10px;
 }
 /* Aside bar */
 .aside-bar{
     width: 15%;
-    /* background: red; */
     padding:10px;
 }
 .numana{
@@ -225,15 +222,16 @@ a{
 }
 .aside-list{
     display: flex;
-    /* background: blue; */
     width:100%;
     border-bottom:1px solid #d3d3d3;
     
 }
 
 /* Seconda sezione */
-.second-section{
+.row-custom{
     height: 82vh;
+}
+.second-section{
     background: black;
     color: white;
     padding:24px;
@@ -247,60 +245,33 @@ a{
     margin-top:0px;
 }
 /* Box parte sinistra */
-.video-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .text-first-video{
     width:80%;
     font-size:18px;
-}
-.first-video{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width:50%;
-    /* background: yellow; */
 }
 .img-interview{
     width: 80%;
     padding:10px;
 }
 /* Box parte destra */
-.right-side{
-    width:50%;
-}
 .img-vigili-fuoco, .star-ancona{
     width:100%;
     height:150px;
 }
-.title-video{
-    display: flex;
-    flex-direction: column;
-}
+
 .second-video, .third-video{
-    /* border:1px solid white; */
-    display: flex;
-    align-items: center;
     width:70%;
-    height: 241px;
+    height: 330px;
     padding:47px;
     border-left:1px solid white;
-    /* background: green; */
 }
 .second-video{
     border-bottom:1px solid white;
 }
-.text-video{
-    width:80%;
-}
 
 /* Terza sezione */
-.third-section{
+.row-section3{
     height:160vh;
-    display: flex;
-    flex-direction: column;
 }
 .title-third-section{
     font-size:30px;
@@ -333,7 +304,7 @@ footer{
     height:70vh;
     background: black;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1400px) {
 
     /* navbar */
     .navbar{
@@ -347,3 +318,10 @@ footer{
         display:flex;
         justify-content: center;
     }
+}
+@media screen and (max-width:900px){
+    .img-frontale{
+        display:none;
+    }
+}
+
